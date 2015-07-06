@@ -1,0 +1,94 @@
+html, body, div, span, h1, h2, h3, h4, p, img, strong, ol, ul, li {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  font-family: "微软雅黑";
+}
+.bus-stop {
+	position: absolute;
+	left: 50%;
+	margin-left: -100px;
+	top: 50px;
+	display: block;
+	width: 200px;
+	height: 100px;
+	background-color: #aaa;
+	color: #fff;
+	text-align: center;
+	line-height: 100px;
+	font-size: 20px;
+}
+.bus {
+	position: absolute;
+	left: 0;
+	top: 200px;
+	margin-left: -125px;
+	display: block;
+	width: 250px;
+	height: 100px;
+	line-height: 100px;
+	text-align: center;
+	background-color: #00f;
+	color: #fff;
+}
+.people {
+	position: absolute;
+	display: block;
+	width: 20px;
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+	color: #fff;
+	border-radius: 10px;
+	background-color: #f00;
+}
+.me {
+	background-color: #0f0;
+}
+.people[data-index="0"] {
+	bottom: 5px;
+	right: 5px;
+}
+.people[data-index="1"] {
+	bottom: 30px;
+	right: 5px;
+}
+.people[data-index="2"] {
+	bottom: 55px;
+	right: 5px;
+}
+.people[data-index="3"] {
+	bottom: 80px;
+	right: 5px;
+}
+.people[data-index="4"] {
+	bottom: 80px;
+	right: 30px;
+}
+.people[data-index="5"] {
+	bottom: 80px;
+	right: 55px;
+}
+.people[data-index="6"] {
+	bottom: 80px;
+	right: 80px;
+}
+.people[data-index="7"] {
+	bottom: 80px;
+	right: 105px;
+}
+.people[data-index="8"] {
+	bottom: 80px;
+	right: 130px;
+}
+.people[data-index="9"] {
+	bottom: 80px;
+	right: 155px;
+}
+.people[data-index="10"] {
+	bottom: 80px;
+	right: 180px;
+}
